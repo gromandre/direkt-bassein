@@ -414,6 +414,42 @@ li {
   .final p {
     font-size: 16px;
   }
+
+  .contact-box {
+    margin-top: 30px;
+}
+
+.phone-link {
+    display: block !important;
+
+    
+
+    background: #12b8c8;
+
+    color: #ffffff !important;
+
+    text-decoration: none !important;
+
+    text-align: center;
+
+    font-size: 22px;
+    font-weight: 700;
+
+    padding: 18px 12px;
+
+    border-radius: 16px;
+
+    border: none;
+
+    -webkit-appearance: none;
+}
+
+.phone-link:visited,
+.phone-link:hover,
+.phone-link:active {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
 }
 
 @media (max-width: 520px) {
@@ -472,42 +508,4 @@ li {
     box-shadow: none;
     margin: 0 0 18px;
   }
-}
-.contact-box {
-    margin-top: 35px;
-    padding: 25px;
-
-    background: rgba(255,255,255,0.08);
-    border: 1px solid rgba(255,255,255,0.15);
-
-    border-radius: 20px;
-    text-align: center;
-}
-
-.contact-box h3 {
-    margin: 0 0 15px;
-    color: #ffffff;
-    font-size: 24px;
-}
-
-.phone-link {
-    display: inline-block;
-
-    padding: 14px 24px;
-
-    background: #12b8c8;
-    color: white;
-
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: 700;
-
-    border-radius: 14px;
-
-    transition: 0.2s;
-}
-
-.phone-link:hover {
-    transform: translateY(-2px);
-    background: #0ea5b3;
 }
